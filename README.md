@@ -54,6 +54,8 @@
 4. Instead of `master`, you could push to different branches such as `dev` or `test`.
 5. Use `cd "your directory"` or `cd ..` to go back to the previous directory.
 6. Use `ls` to list the files in the current directory.
+7. Use `git  reset "file name"` to undo the staged changes (ie, undo the `git add`)
+8. Use `git reset --HEAD~1` to undo the vommit changes (ie, undo the `git commit`) and go back to the previous commit (Be careful, this will delete all the changes you made after the commit)
 
 ### Good Resources
 1. freecodecamp : https://www.youtube.com/watch?v=RGOj5yH7evk
