@@ -13,7 +13,7 @@
 5. Change directory to the project folder and start working:
 
     ```bash
-    cd HE4045-
+    cd HE4045_Project
     ```
 
 ### Pull, Push & Commit
