@@ -4,13 +4,14 @@
 1. Download Git at https://git-scm.com/downloads
 2. Download GitBash at https://gitforwindows.org/
 3. Download VScode at https://code.visualstudio.com/download, or you can use your preferred IDE and terminal.
-4. For the first time, you should clone the existing repository to your local machine. On your terminal:
+4. Because our source data file is too big, we need to install https://git-lfs.com/. Once it is installed, initialize it at your terminal `git lfs install`
+5. For the first time, you should clone the existing repository to your local machine. On your terminal:
 
     ```bash
     git clone https://github.com/tanhl30/HE4045_Project.git
     ```
 
-5. Change directory to the project folder and start working:
+6. Change directory to the project folder and start working:
 
     ```bash
     cd HE4045_Project
@@ -50,3 +51,4 @@
 
 ### Good Resources
 1. freecodecamp : https://www.youtube.com/watch?v=RGOj5yH7evk
+2. Chatgpt is very useful in teaching me haha
