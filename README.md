@@ -25,7 +25,7 @@
 
 4. Push your committed changes to the remote repository:
 
-    'git push origin master'
+    'git push origin main'
 
 ### Useful command 
 1. 'git status' to check the status of the project file, whether saved or unsaved
