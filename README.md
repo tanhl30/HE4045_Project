@@ -1,14 +1,14 @@
 ## How to do version control on this repo
 
 ### What is in this repo?
-- `loan.csv` is our source data file. Github can only stored file less than 100MB so we have to use git-lfs to store the file. It will store the file elsewhere and put a pointer in our repo. 
-- `.gitattreibutes` is the file that tells git to use git-lfs to store the file.
-- `main.py` will be our main file for now 
+- `loan.csv` is our source data file. Github can only store files less than 100MB so we have to use git-lfs to store the file. It will store the file elsewhere and put a pointer in our repo. 
+- `.gitattributes` is the file that tells git to use git-lfs to store the file.
+- `main.py` will be our main working file for now 
 
 ### Getting started
 1. Download Git at https://git-scm.com/downloads
 2. Download VScode at https://code.visualstudio.com/download, or you can use your preferred IDE and terminal.
-3. Because our source data file is too big, we need to install https://git-lfs.com/. Once it is installed, initialize it at your vscode terminal `git lfs install`
+3. Because our source data file is too big, we need to install https://git-lfs.com/. Once it is installed, initialize it at your vscode terminal using `git lfs install`
 4. For the first time, you should clone the existing repository to your local machine. On your terminal:
 
     ```bash
