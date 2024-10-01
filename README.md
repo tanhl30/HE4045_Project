@@ -2,37 +2,51 @@
 
 ### Getting started
 1. Download Git at https://git-scm.com/downloads
-2. Download VScode at https://code.visualstudio.com/download, or you can use your prefered IDE and terminal 
-3. For the first time you should clone the existing repository to your local machine
+2. Download GitBash at https://gitforwindows.org/
+3. Download VScode at https://code.visualstudio.com/download, or you can use your preferred IDE and terminal.
+4. For the first time, you should clone the existing repository to your local machine. On your terminal:
 
-    'git clone https://github.com/tanhl30/HE4045-.git'
-4. change directory to the project folder and start working 
+    ```bash
+    git clone https://github.com/tanhl30/HE4045_Project.git
+    ```
 
-    'cd HE4045-'
+5. Change directory to the project folder and start working:
+
+    ```bash
+    cd HE4045-
+    ```
 
 ### Pull, Push & Commit
 1. Before starting work or when someone has made changes, sync your local repo with the latest changes from the remote repository:
 
-    'git pull origin master'
+    ```bash
+    git pull origin main
+    ```
 
 2. Save your changes (Ctrl+S) after working on your file and stage all updates for commit:
 
-    'git add . '
+    ```bash
+    git add .
+    ```
 
 3. Commit your changes with a meaningful message explaining what you've done:
 
-    'git commit -m "your commit message"'
+    ```bash
+    git commit -m "your commit message"
+    ```
 
 4. Push your committed changes to the remote repository:
 
-    'git push origin main'
+    ```bash
+    git push origin main
+    ```
 
-### Useful command 
-1. 'git status' to check the status of the project file, whether saved or unsaved
-2. 'git remote' to check the current remote repository
-3. Instead of 'master', you could push to different branches such as 'dev' or 'test'
-4. 'cd "your directory"' or 'cd ..' to go back to the previous directory
-5. 'ls' to list the files in the current directory
+### Useful commands line 
+1. Use `git status` to check the status of the project file, whether saved or unsaved.
+2. Use `git remote` to check the current remote repository.
+3. Instead of `master`, you could push to different branches such as `dev` or `test`.
+4. Use `cd "your directory"` or `cd ..` to go back to the previous directory.
+5. Use `ls` to list the files in the current directory.
 
-
-    '
+### Good Resources
+1. freecodecamp : https://www.youtube.com/watch?v=RGOj5yH7evk
