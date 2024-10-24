@@ -1,0 +1,6 @@
+loan_status_grouped - swap 1 and 0, reconfirm grouping
+Merge macroeconomic factors and run models again?
+Standardize evaluation metrics - accuracy score, classification report, confusion matrix (decide which score we want to optimise)
+Discuss other models (if any) - decision tree/ random forest?
+Executive summary outline - what sections to cover, what to include in each section
+Slides outline - what sections to cover, what to include in each section
