@@ -1,0 +1,4 @@
+Merge macroeconomic factors and run models again?
+Discuss other models (if any) - decision tree/ random forest?
+Executive summary outline - what sections to cover, what to include in each section
+Slides outline - what sections to cover, what to include in each section
