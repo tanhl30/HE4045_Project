@@ -1,0 +1,3 @@
+Go through logit model results
+3. Machine Learning B (?)
+Maybe can start on report & slides
