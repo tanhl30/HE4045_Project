@@ -1,3 +1,4 @@
 Go through logit model results
+We can present interesting coefficients and their implications
 3. Machine Learning B (?)
 Maybe can start on report & slides
