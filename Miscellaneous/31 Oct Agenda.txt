@@ -1,6 +1,4 @@
 Logit model
-    - Class imbalance - SMOTE (oversampling minority Class) has issues,
-                        can we try undersampling the majority class?
     - Go through results and coefficients
     - We can present interesting coefficients and their implications
 
