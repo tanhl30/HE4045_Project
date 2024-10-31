@@ -5,6 +5,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import statsmodels.api as sm
+import joblib  # Import joblib for saving models
 
 def train_logistic_regression(data_path):
     # Load and prepare the data
@@ -39,5 +40,9 @@ def train_logistic_regression(data_path):
     X_train_with_const = sm.add_constant(X_train)
     logit_model = sm.Logit(y_train, X_train_with_const)
     result = logit_model.fit(maxiter=1000)
+
+    # Save the fitted model and scaler
+    joblib.dump(logit_model, 'logit_model.pkl')
+    joblib.dump(scaler, 'logit_scaler.pkl')
 
     return result, X_test, y_test

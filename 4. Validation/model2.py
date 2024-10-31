@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBRegressor
+import joblib  # Import joblib for saving models
 
 def train_xgb_model(cleaned_data_path, original_data_path):
     # Load the cleaned and original datasets
@@ -40,5 +41,9 @@ def train_xgb_model(cleaned_data_path, original_data_path):
     # Initialize and fit XGBRegressor
     xgb_model = XGBRegressor(objective='reg:squarederror', n_estimators=100, learning_rate=0.1, max_depth=5, random_state=42)
     xgb_model.fit(X_train, y_train)
+
+    # Save the fitted model and scaler
+    joblib.dump(xgb_model, 'xgb_model.pkl')
+    joblib.dump(scaler, 'xgb_scaler.pkl')
 
     return xgb_model, X_test, y_test
