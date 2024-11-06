@@ -1,0 +1,10 @@
+Presentation Structure
+    - What are the sections, how much time/ slides for each
+    - Who presents which parts
+
+Report (unfinished sections)
+    - Intro and Lit Review
+    - EDA - add word cloud?
+    - Logit Coefficient Explanations
+    - Feature Importance Analysis
+    - Conclusions
