@@ -1,5 +1,4 @@
-Presentation Structure
-    - What are the sections, how much time/ slides for each
+Presentation Flow
     - Who presents which parts
 
 Report (unfinished sections)
