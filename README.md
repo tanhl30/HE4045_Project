@@ -1,3 +1,58 @@
+# Loan Default Prediction using Machine Learning
+
+This repository contains the code and documentation for the project, **Default or Not? Predicting Loan Default using Machine Learning**, conducted for the course HE4045: Quantitative Economics with Data Science at Nanyang Technological University. The project explores the use of machine learning techniques to predict loan defaults on peer-to-peer (P2P) lending platforms using both microeconomic and macroeconomic factors.
+
+## Project Overview
+
+Peer-to-peer lending platforms offer an accessible alternative to traditional banking loans, but they face higher default rates. This project aims to improve the accuracy of default prediction models by incorporating advanced machine learning techniques and economic indicators, providing actionable insights for lenders and policymakers.
+
+## Objectives
+
+1. Identify key microeconomic and macroeconomic factors affecting loan default probability.
+2. Develop and test various machine learning models to predict loan default.
+3. Compare model performance using a novel True Negative / False Negative (TN/FN) ratio for enhanced risk assessment.
+
+## Data Sources
+
+- **Credit Risk Analysis**: Loan data from LendingClub (Kaggle dataset).
+- **Federal Reserve Interest Rate**: Monthly data from the Federal Reserve Bank of St. Louis.
+- **US Unemployment Rate**: Monthly state unemployment rates from the US Bureau of Labor Statistics.
+
+## Methodology
+
+1. **Data Preprocessing**: Data cleaning, transformation, and feature engineering, including variable encoding and matching macroeconomic indicators.
+2. **Exploratory Data Analysis**: Univariate, bivariate, and correlation analyses to understand data structure and relationships.
+3. **Machine Learning Models**:
+   - Logistic Regression
+   - K-Nearest Neighbors (KNN)
+   - Support Vector Machine (SVM)
+   - Artificial Neural Network (ANN)
+   - Random Forest (RF)
+   - XGBoost (XGB)
+4. **Threshold Optimization**: Using TN/FN ratio to balance risk and revenue in loan approvals.
+
+## Results
+
+Each model's performance is evaluated based on accuracy, interpretability, and the TN/FN ratio to assess the trade-offs between minimizing missed defaults and maximizing loan approvals. Key variables, such as loan purpose, term, annual income, and debt-to-income ratio, consistently demonstrate high predictive importance.
+
+## Repository Structure
+
+- `data/`: Contains datasets and additional data sources used in the project.
+- `notebooks/`: Jupyter notebooks with data preprocessing, EDA, and model training steps.
+- `models/`: Scripts for each machine learning model.
+- `results/`: Model performance metrics and feature importance analysis.
+- `README.md`: Project overview and instructions.
+
+## Installation and Usage
+
+1. Clone the repository: `git clone https://github.com/yourusername/loan-default-prediction.git`
+2. Install the required dependencies: `pip install -r requirements.txt`
+3. Run the notebooks or model scripts as per your need. For example, to train a logistic regression model, run:
+   ```bash
+   python models/logistic_regression.py
+
+
+
 ## How to do version control on this repo
 
 ### What is in this repo?
